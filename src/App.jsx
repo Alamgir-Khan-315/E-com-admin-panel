@@ -1,7 +1,11 @@
+import Header from "./assets/Components/Header";
+import Product from "./assets/Components/Product";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="bg-gray-200 h-screen">
+      <Header />
+      <Product />
+    </div>
   )
 }
